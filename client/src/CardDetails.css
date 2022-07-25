@@ -1,0 +1,120 @@
+#card-detail-container {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    /* padding: 20px; */
+    display: flex;
+    flex-flow: wrap;
+    /* align-content: flex-start; */
+}
+
+#top-bars {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+}
+
+#top-bars>.revise {
+    margin: 0 10px;
+    float: right;
+}
+
+#card-details-content {
+    margin-top: 50px;
+    padding: 20px;
+    width: 100%;
+}
+
+.details-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.details-module {
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+#details-basic-info {
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#details-basic-info td {
+    min-width: 100px;
+    height: 20px;
+}
+
+#details-scars-info {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+#details-scars-info table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#details-scars-info tr {
+    border-bottom: 1px solid;
+}
+
+#details-ability-info {
+    min-width: 240px;
+    min-height: 240px;
+}
+
+#details-radar-component {
+    width: 200px;
+    height: 200px;
+}
+
+#details-combat-info {
+    min-width: 240px;
+    min-height: 240px;
+}
+
+#details-combat-radar-component {
+    width: 200px;
+    height: 200px;
+}
+
+#details-skills {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#details-belongings tr {
+    border-bottom: 1px solid;
+}
+
+#details-belongings {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#details-skills tr {
+    border-bottom: 1px solid;
+}
+
+#details-relations {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#details-relations tr>td:nth-child(3){
+    display: flex;
+    justify-content: center;
+}

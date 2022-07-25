@@ -1,0 +1,194 @@
+@import '~antd/dist/antd.css';
+
+.container-form {
+    position: absolute;
+    margin: 0;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container-form form {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-form form .row {
+    display: flex;
+}
+
+.container-form form .module {
+    padding: 10px;
+    margin: 5px 5px;
+    flex: 1;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.container-form form .module h3 {
+    font-size: 100%;
+}
+
+.container-form form .module p {
+    font-size: small;
+    text-indent: 2em;
+}
+.container-form form .module .line {
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    min-width: 0;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.container-form form .module .line label {
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+#persionality-dimension-container {
+    padding: 20px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#persionality-dimension {
+    height: 300px;
+    width: 300px;
+}
+
+#radar-component {
+    height: 200px;
+    width: 200px;
+}
+
+#five-dimensions {
+    height: 100%;
+    width: 100%;
+}
+
+.slider-container {
+    display: flex;
+}
+
+.slider-container .title {
+    flex: 1;
+}
+
+.slider-container .slider {
+    flex: 3;
+}
+
+.slider-container .input {
+    flex: 1;
+}
+
+.scars-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.scars-container #customers {
+    text-align: center;
+}
+
+.scars-container #customers tr {
+    border: 1px solid;
+}
+
+.scars-container #customers tr td:nth-child(4) {
+    width: 50px;
+}
+
+.card {
+    width: 250px;
+    height: 150px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid;
+}
+
+.card:hover {
+    width: 254px;
+    height: 154px;
+    margin: 18px;
+    box-shadow: 0 0 10px;
+}
+
+.card.gender-male {
+    background-color: blue;
+}
+
+.card.gender-female {
+    background-color: pink;
+}
+
+.card.gender-others {
+    background-color: red;
+    background-image:linear-gradient(red,orange,yellow,green,cyan,blue,purple)
+}
+
+.card td {
+    width: 100px
+}
+
+#related-characters {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid;
+}
+
+.unselseted-card {
+    width: 250px;
+    height: 150px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#relations {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#relations tr {
+    border-bottom: 1px solid;
+}
+
+#skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 100px;
+}
+
+#skills-container tr {
+    border-bottom: 1px solid;
+}
+
+.alt-add-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.alt-add-box tr {
+    border-bottom: 1px solid;
+}
+
+#combat-radar-component {
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFBCE2;
+  color: black;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.side-menu {
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+}
+
+.main-content {
+  position: relative;
+  margin-left: 200px;
+  min-height: 100vh;
+}

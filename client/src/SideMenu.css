@@ -1,0 +1,31 @@
+.container-sm {
+    background-color: red;
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container-sm nav {
+    padding: 20px;
+}
+
+.container-sm nav ul {
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.container-sm nav ul li {
+    color: #fff;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.container-sm nav ul li:hover {
+    background-color: #fff;
+    color: red;
+}
